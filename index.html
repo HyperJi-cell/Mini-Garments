@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Garments — Soft & Playful Kids Undergarments</title>
+  <meta name="description" content="Mini Garments offers ultra-soft, skin-friendly undergarments for kids. Comfortable, breathable & designed for little ones who love to play.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Floating background shapes (pure CSS animation) -->
+  <div class="bg-shapes" aria-hidden="true">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">
+          <span class="logo-bounce">🧸</span>
+        </span>
+        <span class="logo-text">Mini <span>Garments</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#collections" class="nav-link">Collections</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#why-us" class="nav-link">Why Us</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Search">🔍</button>
+        <button class="icon-btn cart-btn" aria-label="Cart">
+          🛒 <span class="cart-count">0</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-badge">
+          <span class="badge-sparkle">✨</span> Soft • Safe • Playful
+        </p>
+        <h1>Little Comforts for<br><span class="highlight">Big Adventures</span></h1>
+        <p class="hero-desc">
+          Ultra-soft undergarments designed for kids who never stop moving. 
+          Gentle on skin, fun in every print, and made for all-day comfort.
+        </p>
+        <div class="hero-cta">
+          <a href="#collections" class="btn btn-primary">
+            <span>Shop Softwear</span>
+            <span class="btn-arrow">→</span>
+          </a>
+          <a href="#why-us" class="btn btn-outline">Why Parents Love Us</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong class="stat-num">12k+</strong>
+            <span>Happy Little Ones</span>
+          </div>
+          <div class="stat">
+            <strong class="stat-num">100%</strong>
+            <span>Skin-Friendly</span>
+          </div>
+          <div class="stat">
+            <strong class="stat-num">0</strong>
+            <span>Harsh Chemicals</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <!-- Animated central character (emoji + CSS only) -->
+        <div class="hero-circle">
+          <div class="pulse-ring"></div>
+          <div class="pulse-ring delay"></div>
+          <div class="hero-emoji">
+            <span class="baby-bounce">👶</span>
+          </div>
+          <div class="floating-tag tag-1">☁️ Cloud Soft</div>
+          <div class="floating-tag tag-2">🌈 Fun Prints</div>
+        </div>
+
+        <!-- Floating product cards (animated) -->
+        <div class="float-card card-left">
+          <div class="card-icon">🩲</div>
+          <span>Undies</span>
+        </div>
+        <div class="float-card card-right">
+          <div class="card-icon">👕</div>
+          <span>Vests</span>
+        </div>
+        <div class="float-card card-bottom">
+          <div class="card-icon">🧦</div>
+          <span>Socks</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections -->
+  <section class="collections" id="collections">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-badge">Explore</p>
+        <h2>Shop by Category</h2>
+        <p class="section-desc">Soft essentials for every little body and every season</p>
+      </div>
+
+      <div class="collection-grid">
+        <article class="collection-card" data-color="pink">
+          <div class="collection-visual">
+            <div class="visual-bg"></div>
+            <span class="coll-emoji">👧</span>
+            <div class="coll-sparkles">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="collection-info">
+            <h3>Girls' Softwear</h3>
+            <p>Panties, vests & sets</p>
+            <a href="#products" class="collection-link">Explore →</a>
+          </div>
+        </article>
+
+        <article class="collection-card" data-color="blue">
+          <div class="collection-visual">
+            <div class="visual-bg"></div>
+            <span class="coll-emoji">👦</span>
+            <div class="coll-sparkles">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="collection-info">
+            <h3>Boys' Softwear</h3>
+            <p>Briefs, trunks & vests</p>
+            <a href="#products" class="collection-link">Explore →</a>
+          </div>
+        </article>
+
+        <article class="collection-card" data-color="mint">
+          <div class="collection-visual">
+            <div class="visual-bg"></div>
+            <span class="coll-emoji">🍼</span>
+            <div class="coll-sparkles">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="collection-info">
+            <h3>Baby Essentials</h3>
+            <p>Onesies & first unders</p>
+            <a href="#products" class="collection-link">Explore →</a>
+          </div>
+        </article>
+
+        <article class="collection-card" data-color="yellow">
+          <div class="collection-visual">
+            <div class="visual-bg"></div>
+            <span class="coll-emoji">❄️</span>
+            <div class="coll-sparkles">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="collection-info">
+            <h3>Thermal Cozy</h3>
+            <p>Warm layers for winter</p>
+            <a href="#products" class="collection-link">Explore →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="featured" id="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-badge">Bestsellers</p>
+        <h2>Little Favorites</h2>
+        <p class="section-desc">Parents' top picks for everyday comfort</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-img pink">
+            <div class="prod-anim">
+              <span class="prod-emoji">🩲</span>
+              <div class="prod-shine"></div>
+            </div>
+            <span class="badge">New</span>
+          </div>
+          <div class="product-info">
+            <h3>Bunny Soft Panties</h3>
+            <p class="product-cat">Girls · 2–8 yrs</p>
+            <div class="product-price">
+              <span class="price">₹299</span>
+              <span class="old-price">₹399</span>
+            </div>
+            <button class="btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img blue">
+            <div class="prod-anim">
+              <span class="prod-emoji">🩳</span>
+              <div class="prod-shine"></div>
+            </div>
+            <span class="badge sale">Sale</span>
+          </div>
+          <div class="product-info">
+            <h3>Dino Briefs Pack</h3>
+            <p class="product-cat">Boys · 1–6 yrs</p>
+            <div class="product-price">
+              <span class="price">₹449</span>
+              <span class="old-price">₹599</span>
+            </div>
+            <button class="btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img mint">
+            <div class="prod-anim">
+              <span class="prod-emoji">👕</span>
+              <div class="prod-shine"></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Cloud Soft Vest</h3>
+            <p class="product-cat">Unisex · 0–4 yrs</p>
+            <div class="product-price">
+              <span class="price">₹349</span>
+            </div>
+            <button class="btn-add">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img yellow">
+            <div class="prod-anim">
+              <span class="prod-emoji">🧦</span>
+              <div class="prod-shine"></div>
+            </div>
+            <span class="badge">Bestseller</span>
+          </div>
+          <div class="product-info">
+            <h3>Rainbow Socks Set</h3>
+            <p class="product-cat">Unisex · 1–8 yrs</p>
+            <div class="product-price">
+              <span class="price">₹249</span>
+            </div>
+            <button class="btn-add">Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-badge">Our Promise</p>
+        <h2>Why Mini Garments?</h2>
+        <p class="section-desc">Everything we make starts with your little one's comfort</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <div class="feature-icon">☁️</div>
+          </div>
+          <h3>Cloud-Soft Fabric</h3>
+          <p>Premium combed cotton that feels gentle against delicate skin all day long.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <div class="feature-icon">🛡️</div>
+          </div>
+          <h3>Skin-Safe Promise</h3>
+          <p>No harsh dyes, no irritants. Tested for sensitive skin and everyday play.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <div class="feature-icon">🎨</div>
+          </div>
+          <h3>Playful Prints</h3>
+          <p>Dinosaurs, bunnies, rainbows & more — fun designs kids actually love to wear.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <div class="feature-icon">📏</div>
+          </div>
+          <h3>Perfect Fit</h3>
+          <p>Thoughtful cuts that stay in place without digging or sliding during play.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Story -->
+  <section class="about">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-circle">
+          <div class="about-pulse"></div>
+          <span class="about-emoji">💛</span>
+        </div>
+        <div class="about-float f1">Soft</div>
+        <div class="about-float f2">Safe</div>
+        <div class="about-float f3">Happy</div>
+      </div>
+      <div class="about-text">
+        <p class="section-badge">Our Story</p>
+        <h2>Made for Tiny Skin & Big Smiles</h2>
+        <p>
+          Mini Garments was born from a simple idea: kids deserve undergarments 
+          that are as soft as a hug and as fun as playtime. We use only the gentlest 
+          fabrics and designs that make getting dressed a little happier.
+        </p>
+        <p>
+          From first onesies to school-ready sets, every piece is crafted with care 
+          so parents can feel confident and little ones can feel comfortable.
+        </p>
+        <a href="#contact" class="btn btn-primary">Say Hello</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-content">
+        <div class="cta-emoji">🧸</div>
+        <h2>Ready for Softer Days?</h2>
+        <p>Join thousands of parents who trust Mini Garments for everyday comfort.</p>
+        <a href="#products" class="btn btn-white">Shop Softwear Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon">🧸</span>
+            <span class="logo-text">Mini <span>Garments</span></span>
+          </a>
+          <p>Soft, safe & playful undergarments for the littlest members of your family.</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram" class="social-btn">📷</a>
+            <a href="#" aria-label="Facebook" class="social-btn">📘</a>
+            <a href="#" aria-label="Pinterest" class="social-btn">📌</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Shop</h4>
+          <a href="#">Girls</a>
+          <a href="#">Boys</a>
+          <a href="#">Baby</a>
+          <a href="#">Thermals</a>
+        </div>
+        <div class="footer-links">
+          <h4>Help</h4>
+          <a href="#">Size Guide</a>
+          <a href="#">Shipping</a>
+          <a href="#">Returns</a>
+          <a href="#">FAQs</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Stay Soft & Updated</h4>
+          <p>New styles & parent tips in your inbox.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email" required>
+            <button type="submit">→</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Mini Garments. Made with 💛 for little ones.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
